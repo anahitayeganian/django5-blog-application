@@ -1,0 +1,22 @@
+# ==== General Python artifacts ====
+__pycache__/    # Compiled Python bytecode cache folders
+*.py[cod]       # Compiled Python files (.pyc, .pyo, .pyd)
+
+# ==== Virtual environment ====
+.venv/          # Virtual environment folder
+
+# ==== IDE specific files ====
+.idea/          # PyCharm settings
+
+# ==== Database ====
+db.sqlite3      # SQLite DB files used in development
+
+# ==== Logs ====
+*.log           # Django or server logs
+
+# ==== Environment variables ====
+.env            # Local secrets/config (e.g., SECRET_KEY, API keys)
+
+# ==== OS-specific system files ====
+.DS_Store       # macOS file storing folder view preferences
+Thumbs.db       # Windows thumbnail cache for folder images
